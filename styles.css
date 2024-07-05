@@ -32,10 +32,10 @@
     color: rgb(255, 255, 255);
     background-color: rgba(57, 45, 170, 0.3);
     border-radius: 15px;
+    border: 2px solid turquoise;
     margin-top: 5rem;
     padding: 1rem;
     margin: 40px 20%;
-    max-width: 40%;
     align-self: center;
 
 }
@@ -59,6 +59,7 @@
 h2 {
     text-align: center;
     margin-bottom: 0.5rem;
+    align-self: center;
 }
 
 .text {
