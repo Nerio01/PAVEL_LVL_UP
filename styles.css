@@ -35,17 +35,21 @@
     margin-top: 5rem;
     padding: 1rem;
     margin: 40px 20%;
+    max-width: 40%;
+    align-self: center;
 
 }
 
 .image-one {
     background-image: url("dicaprio.png");
-    background-repeat: space;
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 250px;
     align-self: center;
     border-radius: 15px;
+    border: 3px solid #9198e5;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .centered {
@@ -64,9 +68,8 @@ h2 {
     gap: 1rem;
 }
 
-.text-right {
-    font-size: inherit;
-    color: white;  
+.link {
+    text-align: end;
 }
 
 a {
