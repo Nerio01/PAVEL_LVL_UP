@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     align-self: center;
     border-radius: 15px;
-    border: 3px solid #9198e5;
+    border: 1px double #9198e5;
     width: 335px;
     height: 300px;
     object-fit: contain;
