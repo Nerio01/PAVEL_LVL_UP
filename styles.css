@@ -6,7 +6,11 @@
 
 .body-one {
     display: flex; 
-    background-color: black;
+    background: linear-gradient(#2e0d0d, #9198e5);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
 }
 
 .body-two {
@@ -16,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
-    background-color: rgb(68, 18, 18);
+    background-color: rgb(80, 20, 20);
 }
 
 .image-two {
@@ -42,8 +46,6 @@
     padding: 5px;
     margin: 5px;
     align-self: center;
-    flex: 1;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
