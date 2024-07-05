@@ -7,8 +7,6 @@
 .body-one {
     display: flex;
     background-color: black; /* change to linear gradient later */ 
-    width: 100vw;
-    height: 100vh;
 }
 
 .body-two {
