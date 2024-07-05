@@ -19,11 +19,9 @@
     height: 100vh;
 }
 
-.text-left, 
-.text-right {
+.text-left {
     display: flex;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 1rem;
 }
 
 .text-left {
@@ -33,11 +31,9 @@
     background-color: rgba(57, 45, 170, 0.3);
     border-radius: 15px;
     border: 2px solid turquoise;
-    margin-top: 5rem;
     padding: 1rem;
-    margin: 40px 20%;
     align-self: center;
-
+    align-content: space-between;
 }
 
 .image-one {
@@ -48,7 +44,7 @@
     align-self: center;
     border-radius: 15px;
     border: 3px solid #9198e5;
-    max-width: 100%;
+    max-width: 90%;
     max-height: auto;
 }
 
@@ -70,7 +66,7 @@ h2 {
 }
 
 .link {
-    text-align: end;
+    text-align: start;
 }
 
 a {
