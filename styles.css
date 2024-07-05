@@ -25,17 +25,18 @@
 .text-right {
     display: flex;
     margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .text-left {
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
-    max-width: 35%;
     background-color: rgba(57, 45, 170, 0.3);
     border-radius: 15px;
     margin-top: 5rem;
-    padding: 0.3rem;
+    padding: 0.2rem;
+    flex: 1;
 }
 
 .centered {
@@ -57,7 +58,7 @@ h2 {
 .text-right {
     font-size: 140%;
     color: white;
-    background-color: rgba (255, 255 ,255 0.5);
+    
 }
 
 a {
