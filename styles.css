@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    gap: 2rem;
+    background-color: bisque;
+    background-image: url("dicaprio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.centered, 
+.text {
+    color: whitesmoke;
+    margin
+}
