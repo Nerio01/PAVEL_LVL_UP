@@ -6,17 +6,15 @@
 
 .body-one {
     display: flex;
-    background-image: url("dicaprio.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 60vw;
+    background-color: black; /* change to linear gradient later */ 
+    width: 100vw;
     height: 100vh;
 }
 
 .body-two {
     background-image: url("dicaprio2.png");
     background-repeat: no-repeat;
-    background-size: stretch;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
@@ -35,7 +33,19 @@
     background-color: rgba(57, 45, 170, 0.3);
     border-radius: 15px;
     margin-top: 5rem;
-    padding: 0.2rem;
+    padding: 1rem;
+    margin: 40px 20%;
+
+}
+
+.image-one {
+    background-image: url("dicaprio.png");
+    background-repeat: space;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    border-radius: 15px;
 }
 
 .centered {
@@ -55,7 +65,7 @@ h2 {
 }
 
 .text-right {
-    font-size: 140%;
+    font-size: inherit;
     color: white;  
 }
 
