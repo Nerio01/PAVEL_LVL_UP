@@ -8,7 +8,7 @@
 
 .body-one {
     display: flex; 
-    background: lightslategray;
+    background: rgb(34, 75, 78);
     width: 100vw;
     height: 100vh;
 }
