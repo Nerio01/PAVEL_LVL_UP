@@ -10,11 +10,23 @@
 }
 
 .body-two {
-    background-image: url("dicaprio2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(68, 18, 18);
+}
+
+.image-two {
+    background-image: url("dicaprio2.png");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+    border: 15px solid rgb(117, 42, 42);
+    align-self: center;
 }
 
 
