@@ -5,8 +5,7 @@
 }
 
 .body-one {
-    display: flex;
-    background-color: black; /* change to linear gradient later */ 
+    display: flex; 
 }
 
 .body-two {
@@ -28,7 +27,6 @@
     padding: 5px;
     margin: 5px;
     align-self: center;
-    align-content: space-between;
     flex: 1;
     flex-wrap: wrap;
 }
@@ -47,6 +45,8 @@
 
 .centered {
     align-self: center;    
+    text-align: center;
+    font-size: 90%;
 }
 
 h2 {
