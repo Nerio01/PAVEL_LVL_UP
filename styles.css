@@ -45,11 +45,10 @@
 
 .centered {
     align-self: center;    
-    text-align: center;
-    font-size: 90%;
 }
 
-h2 {
+h2,
+h1 {
     text-align: center;
     margin-bottom: 0.5rem;
     align-self: center;
