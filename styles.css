@@ -17,10 +17,6 @@
     height: 100vh;
 }
 
-.text-left {
-    display: flex;
-    margin: 5px;
-}
 
 .text-left {
     display: flex;
@@ -30,8 +26,11 @@
     border-radius: 15px;
     border: 2px solid turquoise;
     padding: 5px;
+    margin: 5px;
     align-self: center;
     align-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .image-one {
@@ -64,7 +63,7 @@ h2 {
 }
 
 .link {
-    text-align: start;
+    text-align: end;
 }
 
 a {
