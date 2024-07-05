@@ -16,7 +16,7 @@
 .body-two {
     background-image: url("dicaprio2.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: stretch;
     width: 100vw;
     height: 100vh;
 }
